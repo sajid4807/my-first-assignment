@@ -12,15 +12,23 @@
 .primary-color{
     color: #4E47FF;
 }
+.secondary-color{
+    color: #252432;
+}
 .btn-primary{
     font-family: "Raleway";
     font-weight: 700;
     padding: 12px 36px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     color: white;
     background-color: #4E47FF;
     cursor: pointer;
+}
+.heading{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 42px;
 }
 /* navbar styles */
 header{
@@ -47,4 +55,19 @@ nav{
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 37px;
+}
+/* action styles */
+.action{
+    margin: 116px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-description{
+    font-family: 'Raleway';
+    font-size: 24px;
+    margin: 20px 0;
+}
+.action-parent .action-img{
+    border-radius: 48px;
 }
