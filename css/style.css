@@ -206,3 +206,37 @@ nav{
 .touch-child form input[type="button"]{
     padding: 19px 201px;
 }
+/* footer */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.footer-content{
+    text-align: center;
+    padding: 103px 0;
+}
+.footer-content .footer-title{
+    font-family: 'inter';
+    font-weight: 900;
+    font-size: 100px;
+}
+.footer-content .footer-description{
+    font-family: 'inter';
+    font-size: 16px;
+    color: #8987a1;
+    margin-bottom: 20px;
+}
+.footer-icon ul {
+    display: flex;
+    justify-content: center;
+}
+.footer-icon ul li{
+    list-style: none;
+    margin-right: 48px;
+}
+.footer-icon ul li a{
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 16px;
+    color: #8987a1;
+}
