@@ -24,12 +24,16 @@
     color: white;
     background-color: #4E47FF;
     cursor: pointer;
+    font-size: 16px;
 }
 .heading{
     font-family: 'Raleway';
     font-weight: bold;
     font-size: 42px;
     color: #252432;
+}
+body{
+    background-color:  #f5f8ff;;
 }
 /* navbar styles */
 header{
@@ -131,7 +135,9 @@ nav{
 }
 .feedback-sub-child img{
     border-radius: 9999px;
-    padding-right: 12px;
+}
+.feedback-sub-child-title{
+    padding-left: 12px;
 }
 .feedback-sub-child .feedback-name{
     font-family: 'inter';
@@ -142,4 +148,26 @@ nav{
 .feedback-sub-child .feedback-date{
     font-family: 'inter';
     color: #b3b3b3;
+}
+/* focus-better styles */
+.focus{
+    text-align: center;
+    padding: 71px 150px;
+    background-color: #fff;
+    border-radius: 14px;
+    margin-bottom: 116px;
+}
+.focus img{
+    display: block;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.focus h2{
+    font-size: 50px;
+}
+.focus .focus-description{
+    font-family: 'inter';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 15px 0;
 }
