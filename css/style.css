@@ -171,3 +171,38 @@ nav{
     color: rgba(0, 0, 0, 0.5);
     margin: 15px 0;
 }
+/* touch styles */
+.touch{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 70px;
+}
+.touch h2{
+    font-size: 97px;
+}
+.touch-child form label{
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 18px;
+    /* padding: 19px 0 10px; */
+}
+.touch-child form input[type="email"], input[type="text"], textarea {
+    width: 497px;
+    height: 70px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: 'inter';
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0 19px;
+}
+.touch-child form textarea{
+    height: 137px;
+    resize: none;
+}
+.touch-child form input[type="button"]{
+    padding: 19px 201px;
+}
